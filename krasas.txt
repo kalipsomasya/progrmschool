@@ -1,0 +1,10 @@
+
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    Izmēri doti attēlā dimensions.png.
+    grid lines ir caurspīdīgas.
