@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 .cont2{
     display: flex;
     justify-content: center;
@@ -7,8 +11,12 @@
 
 .cont{
     display: grid;
-    grid-template-rows: 414px 130px 155px 20px;
+    grid-template-rows: 415px 130px 156px 20px;
     grid-template-columns: 320px 198px 153px 50px;
+    column-gap: 9px;
+    row-gap: 9px;
+    background-color: #000;
+    justify-content: center;
 }
 
 .frst{
@@ -35,34 +43,28 @@
 }
 
 .wht4{
-    height: 20px;
-    width: 320px;
-    background-color: #F0F1EC;
-
-}
-
-.wht5{
-    height: 184px;
-    width: 50px;
     grid-row: span 2;
     background-color: #F0F1EC;
 
 }
 
+.wht5{
+    background-color: #F0F1EC;
+    grid-row: span 3;
+
+}
+
 .bl{
     background-color: #004592;
-    width: 50px;
-    height: 130px;
+    border-bottom: 10px solid black;
 }
 
 .yel{
     background-color: #F9D01E;
-    width: 198px;
-    height: 20px;
+    grid-row: span 2;
 }
 
 .b{
     background-color: #232629;
-    height: 20px;
-    width: 153px;
+    grid-row: span 2;
 }
