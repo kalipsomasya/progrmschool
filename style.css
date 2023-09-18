@@ -15,32 +15,38 @@
     background-color: #E72F24;
 }
 
-.wht{
-    background-color: #F0F1EC;
-
-}
 
 .wht1{
     grid-column: span 3;
+    background-color: #F0F1EC;
 }
 
 .wht2{
     grid-row: span 2;
+    background-color: #F0F1EC;
+
 }
 
 .wht3{
     grid-column: span 2;
     grid-row: span 2;
+    background-color: #F0F1EC;
+
 }
 
 .wht4{
     height: 20px;
     width: 320px;
+    background-color: #F0F1EC;
+
 }
 
 .wht5{
     height: 184px;
     width: 50px;
+    grid-row: span 2;
+    background-color: #F0F1EC;
+
 }
 
 .bl{
