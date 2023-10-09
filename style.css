@@ -1,0 +1,11 @@
+.cont{
+background-color: rgb(252, 210, 191);
+}
+
+.krug{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
