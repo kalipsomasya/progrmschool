@@ -1,11 +1,92 @@
+
+
+body{
+    background-color: rgb(200, 174, 125);
+    margin: 0px 40px 40px 40px;
+
+}
+
 .cont{
-background-color: rgb(252, 210, 191);
+background-color: rgb(170, 139, 86);
+border-radius: 0% 0% 30% 30%;
 }
 
-.krug{
 
+
+.srednij{
+    background-color: rgb(78, 108, 80);
+    border-style: dotted;
+    border-radius:0 0 20px 20px;
+    margin: 0;
+    border-top: none;
+
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.fs-2 {
+    font-size: 2rem!important;
+}
+
+.temnee{
+    background-color: rgb(57, 81, 68);
+}
+
+
+.none{
+    margin: 0;
+}
+
+.spisok{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20%;
+    border-style: dotted;
+    border-width: 5px;
+    width: fit-content;
+    background-color: rgb(118, 88, 39);
+
+}
+
+ul {
+    list-style-type: square;
+   }
+   
+.rasp{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: baseline;
+justify-content: center;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: rgb(78, 108, 80);
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: rgb(240, 235, 206);
+    --bs-nav-link-hover-color: rgb(57, 81, 68);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
+.bg-gradient {
+    background-image:rgb(57, 81, 68)!important;
+}
