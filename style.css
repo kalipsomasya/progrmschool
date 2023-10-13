@@ -57,6 +57,8 @@ border-radius: 0% 0% 30% 30%;
 
 ul {
     list-style-type: square;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
    }
    
 .rasp{
@@ -88,5 +90,21 @@ justify-content: center;
 }
 
 .bg-gradient {
-    background-image:rgb(57, 81, 68)!important;
+    background-image:rgb(240, 235, 206)!important;
 }
+
+.text-bg-primary {
+color:rgb(240, 235, 206) ;
+    background-color: rgb(57, 81, 68) !important;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+
+}
+
+h3{
+       font-family: 'Amatic SC', sans-serif;
+    }
+    
