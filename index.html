@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-    <title>Marija</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Marija</title>    
 </head>
 <body>
 
@@ -20,8 +20,7 @@ border-color: rgb(78, 108, 80); border-top: none;">
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="#par" class="nav-link butn" aria-current="page">Par mani</a></li>
           <li class="nav-item"><a href="#intereses" class="nav-link">Intereses</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Izglītība</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#izgl" class="nav-link">Izglītība</a></li>
           <li class="nav-item"><a href="#soc" class="nav-link">Soc. tīkli</a></li>
         </ul>
       </header>
@@ -32,23 +31,36 @@ border-color: rgb(78, 108, 80); border-top: none;">
 <br>
 <br>
 <br>
+	
+
 <br>
 <div class="rasp">
-<div id="par">
-  <img src="foto.jpg" alt="ja" style="border-radius: 76% 24% 50% 50% / 48% 23% 77% 52%;border-style: dotted; border-color: rgb(57, 81, 68); border-width: 10px;margin: 30px; background-color: black;">
-</div>
-
-<div class="spisok">
-  <p style="font-family: 'Amatic SC', sans-serif;">Par mani:</p>
+  <div>
+<div class="spisok" id="par">
+  <p style="font-family: 'Amatic SC', sans-serif; font-size: 30px; margin-top: 20px;">Par mani:</p>
   <ul class="toch">
-    <li>Vārds, Uzvards: Marija Mičule</li>
+    <li>Vārds: Marija</li>
+    <li>Uzvards: Mičule</li>
     <li>Vecums: 16 gadi</li>
     <li>Augums: ~165 sm</li>
+    <li>Mīļākā krāsa: zaļa</li>
+    <li><div id="tonrasp">
+      Mīļākie krāsu toņi:
+      <div id="ton2"></div>
+      <div id="ton1"></div>      
+      <div id="ton3"></div>
+    </div>
+    </div></li>
   </ul>
 </div>
+<div>
+  <img src="foto.jpg" alt="ja" style="    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;border-style: dotted; border-color: rgb(57, 81, 68); border-width: 10px;margin: 30px;     display: block;
+  margin: 0 auto;
+  max-width: 100%; animation:anim-ramka-1 30s infinite;">
 </div>
-      <div id="intereses" class="d-flex justify-content-evenly row g-4 py-5 row-cols-1 row-cols-lg-3 m-5">
-        <div class="feature col">
+</div>
+      <div id="intereses" class="d-flex justify-content-evenly row g-4 py-5 row-cols-1 row-cols-lg-3 m-5" style="background-color: rgb(200, 174, 125); border-radius: 20% 50%;">
+        <div class="feature col mx-auto text-center">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
               <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
@@ -57,9 +69,13 @@ border-color: rgb(78, 108, 80); border-top: none;">
             </svg>
           </div>
           <h3 class="fs-2 text-body-emphasis">TOP 3 mīļākās filmas</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <p><ul>
+            <li>Star Wars</li>
+            <li>Kin-dza-dza</li>
+            <li>Навсикая из долины ветров</li>
+          </ul></p>
         </div>
-        <div class="feature col">
+        <div class="feature col mx-auto text-center">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-cassette" viewBox="0 0 16 16">
               <path d="M4 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm9-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7 6a1 1 0 0 0 0 2h2a1 1 0 1 0 0-2H7Z"/>
@@ -67,18 +83,50 @@ border-color: rgb(78, 108, 80); border-top: none;">
             </svg>
           </div>
           <h3 class="fs-2 text-body-emphasis">TOP 3 mīļākās dziesmas</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <p><ul>
+            <li>Prayer In C (Robin Schulz Remix)</li>
+            <li>Tom's Diner - Suzanne Vega, DNA </li>
+            <li>Машина Времени - Синяя птица</li>
+          </ul></p>
         </div>
-        <div class="feature col">
+        <div class="feature col mx-auto text-center">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 temnee">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
               <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
             </svg>
           </div>
           <h3 class="fs-2 text-body-emphasis">TOP 3 mīļākās grāmatas</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <p><ul>
+            <li>Дети Арбата - А.Рыбаков</li>
+            <li>Колеса - А.Хейли</li>
+            <li>Живущие в ночи - П.Абрахамс</li>
+          </ul></p>
         </div>
       </div>
+
+          <h3 id="izglt" class="mb-0">Izglītība</h3>
+         <div class="mx-2">
+      <div class="d-flex justify-content-evenly row g-4 row-cols-1 row-cols-lg-3 m-5 mt-0 navss" id="izgl">
+        <div class="feature col mx-auto text-center">
+<img src="s2p.jpg" alt="s2p" width="100%" style="border-radius: 20px; border-style: dotted; border-width: 4px;">
+<h3 ><a href="https://s2vsk.lv/lv/" class="nav-link" style="background-color: rgb(200, 174, 125); border-radius: 50px;">Salaspils 2.pamatskola</a></h3>
+<p>2013-2022.g</p>
+        </div>
+        <div class="feature col mx-auto text-center">
+<img src="smms.jpg" alt="smms" width="100%" style="border-radius: 20px; border-style: dotted; border-width: 4px;">
+<h3><a href="https://salaspilsmms.lv/" class="nav-link" style="background-color: rgb(200, 174, 125); border-radius: 50px;">Salaspils mūzikas un mākslas skola</a></h3>
+<p>2016-2022.g</p>
+
+        </div>
+        <div class="feature col mx-auto text-center">
+<img src="s1vsk.jpg" alt="s1vsk" width="100%" style="border-radius: 20px; border-style: dotted; border-width: 4px;">
+<h3><a href="https://www.s1vsk.lv/" class="nav-link" style="background-color: rgb(200, 174, 125); border-radius: 50px;">Salaspils 1.vidusskola</a></h3>
+<p>2022-(turpina mācības)</p>
+        </div>
+      </div>
+         </div>
+<br>
+
     <footer id="soc" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <span class="mb-3 mb-md-0 text-body-secondary">© 2007 Company, Inc</span>

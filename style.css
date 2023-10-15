@@ -55,6 +55,7 @@ border-radius: 0% 0% 30% 30%;
 
 }
 
+
 ul {
     list-style-type: square;
     font-family: 'Alegreya', serif;
@@ -65,7 +66,7 @@ ul {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-align-items: baseline;
+align-items: start;
 justify-content: center;
 }
 
@@ -89,6 +90,17 @@ justify-content: center;
     list-style: none;
 }
 
+.navss {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color:rgb(57, 81, 68);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 .bg-gradient {
     background-image:rgb(240, 235, 206)!important;
 }
@@ -107,4 +119,73 @@ p{
 h3{
        font-family: 'Amatic SC', sans-serif;
     }
+
+
     
+#ton1{
+    background-color: rgb(67, 83, 52);
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    animation: anim-ramka-1 17s infinite;
+}
+
+#ton2{
+    background-color: rgb(137, 129, 33);
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    animation: anim-ramka-1 13s infinite;
+}
+
+#ton3{
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    background-color: rgb(83, 82, 4);
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    animation: anim-ramka-1 9s infinite;
+}
+
+#tonrasp{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: start;
+justify-content: center;
+}
+
+@keyframes anim-ramka-1 {
+    0% {
+        border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+
+    }
+    25% {
+        border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+        border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    }
+    75% {
+        border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+}
+
+
+#izglt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(118, 88, 39);
+}
